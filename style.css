@@ -1,0 +1,36 @@
+.text-orange{
+    color:#F2AE1A
+}
+.font-14{
+    font-size: 14px;
+}
+.font-15{
+    font-size: 15px;
+}
+.bg-top{
+    background-color: #2D3D50;
+}
+.nav-left-top i{
+    font-size: 14px;
+}
+.nav-left-top, .nav-right-top{
+    font-size: 15px;
+}
+.nav-right-top a, .nav-right-top button{
+    font-size: 15px;
+}
+.search-input{
+    font-size: 14px;
+    height: 40px;
+    border-radius: 50px 0 0 50px;
+}
+.btn-yellow{
+    background-color: #FFAE00;
+    color: #fff;
+    width: 97px;
+    height: 40px;
+    border-radius: 0 50px 50px 0;
+}
+.btn-yellow:hover{
+    color: #fff;
+}
