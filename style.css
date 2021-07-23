@@ -34,3 +34,88 @@
 .btn-yellow:hover{
     color: #fff;
 }
+main{
+    background-color: #F2F3F7;
+}
+.trending-section img{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 150px;
+    min-height: 150px;
+}
+.trending-section a:hover{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+.item-section{
+    overflow: hidden;
+}
+.item-section a{
+    text-decoration: none;
+}
+.item-section img{
+    padding: 9px; 
+    height: auto; 
+    width: 130px; 
+    max-width: 130px;
+    transition: transform .2s;
+}
+.item-section span{
+    color: #555; 
+    font-size: 14px;
+}
+.item-section img:hover{
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+.latest-section{
+    background: #fff; 
+    margin-top: 5px; 
+    padding: 10px 7px 30px 7px; 
+    overflow: hidden; 
+    border-bottom:2px solid #ccc;
+}
+.latest-section a{
+    text-decoration: none;
+    color: #333;
+}
+.latest-section:hover{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+.latest-img{
+    text-align: center;
+    position: relative;
+}
+.sticker{
+    background-color: #f68b1e;
+    position: absolute;
+    top: 6px;
+    left: -45px;
+    width: 125px;
+    padding: 1px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    transform: rotate(-45deg);
+}
+.latest-section i{
+    color: #bbb;
+}
+.latest-section img{
+    transition: transform .2s;
+}
+.latest-section img:hover{
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+.latest-details{
+    margin-top: 10px;
+}
+.latest-details p{
+    font-size: 14px;
+}
